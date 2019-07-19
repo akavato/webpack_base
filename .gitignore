@@ -1,0 +1,10 @@
+node_modules/
+src_img/
+.vscode/
+/dist/
+/.git/
+/app/css/
+/app/js/*.min.js
+/**/Thumbs.db
+package-lock.json
+*.log

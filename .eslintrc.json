@@ -1,0 +1,28 @@
+{
+    "extends": "standard",
+    "env": {
+        "es6": true
+    },
+    "globals": {
+        "$": false,
+        "screen": false,
+        "Promise": false,
+        "google": false,
+        "fullpage_api": false
+    },
+    "rules": {
+        "brace-style": ["error", "stroustrup", {"allowSingleLine": true}],
+        "indent": ["error", 4],
+        "no-undef": "warn",
+        "no-unused-vars": ["warn", {
+            "vars": "all",
+            "args": "none",
+            "ignoreRestSiblings": true
+        }],
+        "no-useless-escape":"off",
+        "padded-blocks": ["warn", "never"],
+        "semi": ["error", "always"],
+        "spaced-comment": ["warn", "always"],
+        "space-before-function-paren": ["warn", "never"]
+    }
+}

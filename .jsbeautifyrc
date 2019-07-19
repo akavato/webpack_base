@@ -1,0 +1,13 @@
+{
+    "beautify.language": {
+        "js": {
+            "type": ["javascript", "json"],
+            "filename": [".eslintrc.json", ".jsbeautifyrc"]
+        },
+        "css": ["css", "scss"],
+        "html": ["htm", "html"]
+    },
+    "indent_size": 4,
+    "indent_char": " ",
+    "end_with_newline": true
+}

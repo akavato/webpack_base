@@ -1,0 +1,62 @@
+{
+    "rules": {
+        "indentation": [
+            1,
+            {
+                "size": 4
+            }
+        ],
+        "property-sort-order": [
+            1,
+            {
+                "order": "recess",
+                "ignore-custom-properties": true
+            }
+        ],
+        "class-name-format": [
+            1,
+            {
+                "convention": "hyphenatedbem",
+                "allow-leading-underscore": false
+            }
+        ],
+        "empty-line-between-blocks": [
+            1,
+            {
+                "include": true,
+                "allow-single-line-rulesets": false
+            }
+        ],
+        "no-color-literals": [
+            0,
+            {
+                "allow-rgba": true
+            }
+        ],
+        "brace-style": [
+            1,
+            {
+                "style": "stroustrup"
+            }
+        ],
+        "nesting-depth": [
+            1,
+            {
+                "max-depth": 3
+            }
+        ],
+        "mixins-before-declarations": 0,
+        "no-ids": 0,
+        "no-important": 0,
+        "no-vendor-prefixes": 0,
+        "shorthand-values": [
+            1,
+            {
+                "allowed-shorthands": [
+                    1,
+                    2
+                ]
+            }
+        ]
+    }
+}
